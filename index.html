@@ -8,13 +8,10 @@
   <link rel="icon" href="http://muaru.github.io/rsz_zedicon.png">
   <script src="https/ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script>
-    $(document).ready(function () {
-
-        $("#show").click(
-            function () {
-                ShowDialog();
-            }            
-        );
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(this).hide();
+        });
     });
     
     function ShowDialog() {
