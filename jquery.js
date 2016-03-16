@@ -7,3 +7,4 @@
         dialog.close();  
     };  
 })();
+function opendialog(){dialog.show();}
