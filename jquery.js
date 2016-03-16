@@ -7,4 +7,4 @@
         dialog.close();  
     };  
 })();
-function opendialog(){dialog.show();}
+function opendialog()var dialog = document.getElementById('window'){dialog.show(;}
