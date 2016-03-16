@@ -6,8 +6,21 @@
   <body background="back.png">
   <title>Zed Information</title>
   <link rel="icon" href="http://muaru.github.io/rsz_zedicon.png">
-<script src="jquery.js"></script>
-<script src="https/ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https/ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+
+        $("#show").click(
+            function () {
+                ShowDialog();
+            }            
+        );
+    });
+    
+    function ShowDialog() {
+      alert("Too use Zed's full combo you should;\n w to the champion that you want to slay, not only to get you next to them, but to amplify the damage that you will do to them.\n Next you want to use your r and them auto, q, and e them so that\n they get as much deathmark bonus damage has possible.\n Then watch them explode while pressing ctrl+4");
+    }
+  </script>
 </head>
 <body>
   <center><img src="http://4.bp.blogspot.com/-zgq0D3jj_Xw/VXx-0W0qjtI/AAAAAAAAAAA/DiAdnqDTTd8/s1600/Sube%2Btu%2Brender%2B%2528si%2Blo%2Btienes%2Ben%2B-League%2Bof%2BLegends%2B-%2BLogo.png" alt="LoL" style="width:450px;height:178px;"></center>
@@ -50,21 +63,6 @@
   </tr>
   <img src="http://muaru.github.io/zeed.png" alt="Zed" style="width:300px;height:300;">
   <button id="show">Show Dialog</button> 
-  <script type="text/javascript">
-    $(document).ready(function () {
-
-        $("#show").click(
-            function () {
-                ShowDialog();
-            }            
-        );
-    });
-    
-    function ShowDialog() {
-      alert("Too use Zed's full combo you should;\n w to the champion that you want to slay, not only to get you next to them, but to amplify the damage that you will do to them.\n Next you want to use your r and them auto, q, and e them so that\n they get as much deathmark bonus damage has possible.\n Then watch them explode while pressing ctrl+4");
-    }
-</script>
-  
   </table>
   <dialog id="window">  
     <h3>Sample Dialog!</h3>  
