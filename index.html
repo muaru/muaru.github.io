@@ -49,15 +49,11 @@
     <td>55.3%</td>
   </tr>
   <img src="http://muaru.github.io/zeed.png" alt="Zed" style="width:300px;height:300;">
-  <script type="text/javascript">(function() {  
-    var dialog = document.getElementById('window');  
-    document.getElementById('show').onclick = function() {  
-        dialog.show();  
-    };  
-    document.getElementById('exit').onclick = function() {  
-        dialog.close();  
-    };  
-})();
+  <script type="text/javascript">$(document).ready(function(){
+    $("#show").click(function(){
+        $("#window").show();
+    });
+});</script>
   </table><dialog id="window">  
     <h3>Sample Dialog!</h3>  
     <p>Too use Zed's full combo you should; w to the champion that you want to slay, not only to get you next to them, but to amplify the damage that you will do to them. Next you want to use your r and them auto, q, and e them so that they get as much deathmark bonus damage has possible. Then watch them explode while pressing ctrl+4</p>  
